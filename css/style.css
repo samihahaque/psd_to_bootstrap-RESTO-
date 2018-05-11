@@ -1,0 +1,155 @@
+@font-face{
+    font-family: aleo;
+    src: url(../fonts/aleo/Aleo-Regular.otf);
+}
+@font-face{
+    font-family:wc;
+    src: url(../fonts/wc_mano_negra_bta/WCManoNegraBta.otf);
+}
+body{
+    font-family: aleo;
+}
+.custom_nav{
+    padding:2.3% 0;
+}
+.custom_nav ul li{
+    padding:0 18px;
+}
+.custom_nav ul li a{
+    color:black !important;
+    font-size: 14px !important;
+    transition: 0.3s !important;
+}
+.custom_nav ul li a:hover{
+    color:#f34949 !important;
+    transform: scale(1.06);
+}
+.banner{
+    min-height:575px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_text{
+    margin:18% 0;
+}
+.banner_text h1{
+    font-family: wc;
+    font-size: 100px;
+    color:white;
+}
+.banner_text span{
+    font-size: 16px;
+    color:white;
+}
+.menu{
+    padding-bottom:5%;
+}
+.menu_img{
+    margin-bottom:7%;
+}
+
+.menu .list h1{
+    font-size: 16px;
+}
+.menu .list p{
+    font-size: 12px;
+    font-style: italic;
+    color:#b7b7b7;
+    margin-bottom:15%;
+}
+.custom_btn{
+    margin-left:43%;
+    transition: 0.5s !important;
+}
+.custom_btn:hover{
+    background-color: transparent;
+    color:#f34949;
+    border:1px solid #f34949;
+    transform: scale(1.03);
+}
+.dish{
+    padding-bottom:6%;
+    padding-top: 2%;
+}
+.single_dish img{
+    width:100%;
+    margin:8% 0;
+}
+.yellow{
+    color:#f2e231;
+}
+.title h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom:8%;
+}
+.single_dish span{
+    color:#999999;
+}
+.custom-indicators {
+	left:74%;
+	top:-48px;
+	bottom:auto;
+	margin-right:-1px;
+}
+/* The colour of the indicators */
+.custom-indicators li {
+	background:#999999;
+}
+.custom-indicators .active {
+background:red;
+}
+.gallery{
+    padding-bottom:6%;
+    padding-top: 2%;
+}
+.gallery_image img{
+    width:100%;
+    transition:0.8s;
+}
+.gallery_image img:hover{
+    transform:rotateY(45deg);
+    
+}
+.pr{
+    padding-right:0px;
+}
+.pl{
+    padding-left:0px;
+}
+#gallery{
+    padding:2% 1.5%;
+}
+footer{
+    background-color:#3b3b3b;
+    padding:5% 0;
+}
+.footer_text h1{
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+.footer_text p{
+    font-size: 15px;
+    color:white;
+    font-weight:lighter;
+}
+.footer_list ul li a{
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom:3%;
+}
+.footer_list ul li a:hover{
+    color:#f34949 ;
+    
+}
+#footer_text{
+    padding-top: 6%;
+}
+#footer_text p{
+    font-size: 14px;
+    color:white;
+}
